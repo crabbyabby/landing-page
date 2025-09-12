@@ -34,7 +34,7 @@ a{
 }
 
 .logo, .title, .footer{
-    color: #f9faf8;
+    color: #EFE9E7;
 }
 
 .text{
@@ -47,9 +47,24 @@ a{
     justify-content: space-around;
     padding: 5% 7.5%;
 }
+
+.inside{
+    width: 75%;
+    display: flex;
+    gap: 20px;
+}
+
 .title{
     font-size: 48px;
     font-weight: 900;
+}
+
+.title_left{
+    flex-shrink: 1;
+}
+
+.title_right{
+    flex-shrink: 1;
 }
 
 button{
@@ -60,6 +75,7 @@ button{
     border: none;
     border-radius: 5px;
     margin-top: 3%;
+    font-size: 16px;
 }
 
 img{
@@ -70,7 +86,7 @@ img{
 }
 
 .section2{
-    background-color: #e5e7eb;
+    background-color: #f9faf8;
 }
 .title2{
     font-size: 36px;
@@ -83,14 +99,23 @@ img{
 
 .info_container{
     display: flex;
-    align-content: space-evenly;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15%;
 }
 
 .square{
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 8px;
-    
+    border: 7px solid #1F2937;
+    margin-bottom: 10px;
 }
 
 .info_text{
@@ -99,12 +124,70 @@ img{
 
 .section3{
     background-color:#e5e7eb;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quote, .thequotee{
+    width: 70%;
+    
+    margin: 0 auto;
 }
 
 .quote{
     color:#1F2937;
     font-size: 36px;
     font-weight: 300;
+    text-align: center;
 }
+
+.thequotee{
+    font-size: 24px;
+    font-weight: 900;
+    color:#1F2937;
+    
+}
+
+.last{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.alert{
+    display: flex;
+    background-color: #3882F6;
+    width: 70%;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 3%;
+    margin: 5%;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+}
+
+.left4{
+    font-size: 24px;
+}
+
+.title4{
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.button2{
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    margin-top: 3%;
+    font-size: 16px;
+}
+
 
 

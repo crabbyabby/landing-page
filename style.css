@@ -62,15 +62,39 @@ button{
     margin-top: 3%;
 }
 
-.image{
+img{
     width: 500px;
-    height: 200px;
-    background-color: slategray;
-    color: white;             /* make text visible */
-    display: flex;            /* use flexbox */
-    justify-content: center;  /* center horizontally */
-    align-items: center;      /* center vertically */
-    font-size: 18px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section2{
+    background-color: #e5e7eb;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info_container{
+    display: flex;
+    align-content: space-evenly;
+}
+
+.square{
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    
+}
+
+.info_text{
+    text-align: center;
 }
 
 .section3{
